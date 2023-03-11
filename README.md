@@ -1,11 +1,7 @@
-goit-markup-hw-05
+goit-markup-hw-06
 
-Version: 1.1 Create a repository goit-markup-hw-05. Clone the created repository
-and copy the previous work files into it. Add animated decorative effects to
-layout pages of homework #5. Set up GitHub Pages and add a link to the live page
-in the header of the GitHub repository. Criteria for work acceptance by the
-tutor Project «A1» All styles are contained in one styles.css file in the css
-folder.
+Criteria for work acceptance by the tutor Project «A1» All styles are contained
+in one styles.css file in the css folder.
 
 «A2» Source code is formatted with Prettier.
 
@@ -15,51 +11,44 @@ folder.
 
 «A5» The code is in line with the guide.
 
-«A6» The modal window script is linked in HTML as a separate file, modal.js.
-
 Markup «B1» HTML-markup is done for all layout elements.
 
 «B2» Tags are used according to their semantics.
 
-Styling «C1» For all hover and focus effects (color, background, shadow),
-transitions are made. Time is set to 250ms, and the timing function is
-cubic-bezier(0.4, 0, 0.2, 1).
+«B3» The markup of the newsletter subscription form and all its elements in the
+footer is done.
 
-«C2» Transitions and animations explicitly specify the properties to be
-animated. There is no all value anywhere.
+«B4» The markup of the order form and all its elements in the modal window is
+done.
 
-«C3» In the main navigation, the current page's link (which the user is
-currently viewing) is underlined using the ::after pseudo-element.
+«B5» All inputs in forms have the name attribute.
 
-«C4» Blue overlay with text appears on the cards of the Portfolio page when
-hovering over any part of the card.
+«B6» The values of the name attribute are descriptive, describing exactly what
+the form field is used for.
 
-«C5» Blue overlay slides out from the bottom of the cards on the Portfolio page,
-as shown in the video.
+«B7» All inputs have a bound <label> element.
 
-card overlay preview «C6» Pseudo-elements have no text content in the content
-property. They are used exclusively for decorative purposes.
+«B8» The placeholder attribute is set on the inputs if there is a hint text for
+it in the layout.
 
-Modal window «D1» The markup and styling of the modal "backdrop" (dark
-semi-transparent background) are done.
+«B9» Form "submit" buttons have the type ="submit" attribute.
 
-«D2» "Backdrop" fills 100% of the height and width of the browser viewport and
-stays fixed in it.
+«B10» All new form icons are added to the icons.svg SVG sprite.
 
-«D3» The markup and styling of the modal window are done.
+Styling «C1» The styling of elements of the newsletter subscription form in the
+footer is done.
 
-«D4» The modal window is vertically and horizontally positioned in the middle of
-the backdrop.
+«C2» The styling of elements of the order form in the modal window is done.
 
-«D5» The markup and styling of the button for closing the modal window in the
-upper right corner are done.
+«C3» When an input is in focus, its border and icon change color (as shown on
+the layout).
 
-«D6» By default, the modal and backdrop are hidden using the is-hidden class in
-the backdrop, whose selector uses the visibility, opacity and pointer-events
-properties.
+«C4» The original checkbox with acceptance of the license agreement in the order
+form is hidden.
 
-«D7» If you remove the is-hidden class from the backdrop, the backdrop and modal
-window will appear.
+«C5» The checkbox with acceptance of the license agreement is designed manually,
+using a vector checkmark image from the SVG sprite.
 
-«D8» The modal window opening/closing is animated using a transition with an
-arbitrary effect such as scale or translate, and opacity.
+«C6» For all hover and focus effects (color, background, shadow), transitions
+are made. Time is set to 250ms, and the timing function is cubic-bezier(0.4, 0,
+0.2, 1).
