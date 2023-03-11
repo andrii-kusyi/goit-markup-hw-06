@@ -635,9 +635,9 @@ body {
     transition-timing-function: var(--timing-function);
 }
 .input-check-box:checked + .policy-text::before {
-    border-color: var(--pressed-state-ocean);
+    background-color: var(--pressed-state-ocean);
     border: none;
-    background-image: url(../images/checkmark.svg);
+    background-image: url(../images/check-mark.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -652,6 +652,7 @@ body {
 .submit-modal {
     margin-left: auto;
     margin-right: auto;
+
 }
 /* ---------------------Porfolio--------------------- */
 .filter-list {
